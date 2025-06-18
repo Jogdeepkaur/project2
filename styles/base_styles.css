@@ -1,0 +1,149 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Generic (CALLED IN ANOTHER FILE)
+	- Normalize
+	- Box sizing
+	- Media width
+# Base
+	- Typography
+	- Elements
+	- Links
+# Layouts
+# Components
+	- Header
+	- Main
+	- Footer
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# Base
+--------------------------------------------------------------*/
+
+/* Typography
+--------------------------------------------- */
+body {
+	font-size: clamp(1rem, 2.5vw, 2rem);
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	margin-top:0;
+	padding-top:0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+	font-size: clamp(1.5rem,4vw,5rem);
+	margin: 0 0 .5em;
+}
+
+h2 {
+	font-size: clamp(1.75rem,3vw,3rem);
+	text-align: center;
+}
+
+p {
+	margin: 0 0 1.5em;
+}
+
+
+/* Elements
+--------------------------------------------- */
+ul {
+	
+}
+
+ol {
+	
+}
+
+dl {
+	
+}
+
+figure {
+	
+}
+
+table {
+	
+}
+
+/* Links
+--------------------------------------------- */
+a {
+	
+}
+
+a:visited {
+	
+}
+
+a:hover {
+	
+}
+
+a:focus {
+	
+}
+
+a:active {
+	
+}
+
+
+/*--------------------------------------------------------------
+# Layout
+--------------------------------------------------------------*/
+
+
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+
+/* Header
+--------------------------------------------- */
+header{
+	/* background-color: #6D8EA0; */
+	/* background-color: #C2C6A7; */
+	/* background-color: #c3b59f; */
+	/* background-color: #2A628F; */
+	height: 15rem;
+	padding-top:0;
+}
+.page-header {
+	position: relative;
+}
+.page-header h1 {
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	right: 30%;
+	z-index: 4;
+    border:1px;
+    border-radius: 50%;
+	width: fit-content;
+	backdrop-filter: blur(5px);
+	text-transform: uppercase;
+	text-align: center;
+}
+/* Main
+--------------------------------------------- */
+
+
+/* Footer
+--------------------------------------------- */
+footer{
+	background-color: #c3b59f;
+	/* background-color: #967D69; */
+	height: 8rem;
+	
+}

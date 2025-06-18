@@ -1,0 +1,24 @@
+/* Styles for the index page  */
+/* .page-header {
+	position: relative;
+
+}
+
+.page-header h1 {
+	position: absolute;
+	top: 70%;
+	left: 30%;
+	right: 30%;
+	z-index: 4;
+    border:1px;
+    border-radius: 50%;
+	font-size: 3rem;
+	backdrop-filter: blur(10px);
+	text-transform: uppercase;
+	text-align: center;
+}
+.page-header video{
+	display: block;
+	object-fit: cover;
+	min-height: 25rem;
+} */
