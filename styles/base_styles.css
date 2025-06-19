@@ -122,12 +122,14 @@ header{
 }
 .page-header {
 	position: relative;
+	display: flex;
+	justify-content: center;
+
 }
 .page-header h1 {
 	position: absolute;
 	top: 70%;
-	left: 30%;
-	right: 30%;
+	
 	z-index: 4;
     border:1px;
     border-radius: 50%;
@@ -155,6 +157,7 @@ header{
 		height: 8rem;
 	    padding:2rem 3rem ;
 	}
+	
 .navigation ul{
 	display:grid;
 	grid-template-columns: repeat(4,1fr);
@@ -168,7 +171,7 @@ header{
 /* Footer
 --------------------------------------------- */
 footer{
-	background-color: #c3b59f;
+	
 	/* background-color: #967D69; */
 	height: 8rem;
 	

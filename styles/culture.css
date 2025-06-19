@@ -3,12 +3,21 @@
 	object-fit: cover;
 	min-height: 25rem;
 }
+
 .gallery-container{
-	padding:3rem;
+	padding:2rem;
+}
+@media screen and (min-width: 50em){
+	.gallery-container{
+	
 	display: grid;
-	grid-template-columns: 1fr 1fr ;
-	grid-template-rows: 1fr 1fr;
+	grid-template-columns: repeat(2,1fr);
+	grid-template-rows: repeat(2,1fr);
+	
 	gap:1rem;
-	justify-content: center;
+	justify-content:center;
+}
+
 	
 }
+

@@ -1,3 +1,6 @@
+h1{
+    text-align: center;
+}
 header{
     background-color: #330A0E;
     /* background-color: #410707; */
@@ -12,7 +15,67 @@ footer{
     margin:0 4rem;
 }
 .gallery{
-    padding:0 30%;
+    padding:1rem 30%;
     background-color: #463d38;
     /* background-color: #363946; */
+}
+@media screen and (min-width: 60em){
+    .gallery{
+        width: 100%;
+		height: 38rem;
+		position: relative;
+        padding:6rem;
+        
+    }
+    .gallery img{
+        position: absolute;
+    }
+    .image4{
+       z-index: 4;
+		left: 7rem;
+		top: 3rem;
+    }
+     .image2{
+        z-index: 5;
+		bottom: 2;
+		top: 4rem;
+		left:20rem;
+     }
+      .image1{
+      z-index: 3;
+		top: 9rem;
+		right: 6rem;
+    }
+     .image3{
+        z-index: 1;
+		top:8rem;
+		left: 5rem;
+		right: 2rem;
+    }
+     .gallery img:hover{
+        z-index: 100;
+    }
+}
+@media screen and (min-width: 100em){
+    .image3{
+        z-index: 1;
+		top:5rem;
+		left: 13rem;
+		right: 2rem;
+    }
+     .image1{
+      z-index: 3;
+		top: 9rem;
+		right: 9rem;
+    }
+    .image2{
+        z-index: 5;
+		top: 8rem;
+		left:27rem;
+     }
+     .image4{
+       z-index: 4;
+		left: 35rem;
+		top: 3rem;
+    }
 }
