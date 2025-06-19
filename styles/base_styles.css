@@ -114,10 +114,6 @@ a:active {
 /* Header
 --------------------------------------------- */
 header{
-	/* background-color: #6D8EA0; */
-	/* background-color: #C2C6A7; */
-	/* background-color: #c3b59f; */
-	/* background-color: #2A628F; */
 	height: 5rem;
 	padding:1rem ;
 }
@@ -172,6 +168,8 @@ header{
 --------------------------------------------- */
 footer{
 	/* background-color: #967D69; */
-	height: 8rem;
-	
+	height: 6rem;
+}
+footer p{
+   text-align: center;
 }
