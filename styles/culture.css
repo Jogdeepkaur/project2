@@ -5,19 +5,27 @@
 }
 
 .gallery-container{
-	padding:2rem;
+	padding:1rem;
 }
+.gallery-container figure{
+	border: 4px solid #3A3C40;
+	background-color: #3A3C40;
+	color: #ffffff;
+	border-radius: 2rem;
+	padding-bottom:1rem;
+}
+figure img{
+	border-radius: 2rem;
+}
+
 @media screen and (min-width: 50em){
 	.gallery-container{
-	
 	display: grid;
-	grid-template-columns: repeat(2,1fr);
-	grid-template-rows: repeat(2,1fr);
-	
+	grid-template-rows: 1fr 1fr;
+	grid-template-columns:minmax(20rem,40rem) minmax(20rem,40rem) ;
 	gap:1rem;
 	justify-content:center;
 }
-
 	
 }
 

@@ -1,19 +1,28 @@
 h1{
     text-align: center;
 }
-header{
+header,footer{
     background-color: #330A0E;
-    /* background-color: #410707; */
-    /* #160101; */
+}
+header a{
+    color:#ffffff ;
 }
 footer{
-    background-color: #31373e;
+    color:#ffffff ;
 }
-
 
 .text_of_festival{
     margin:0 4rem;
+    display: grid;
+    grid-template-columns: repeat(14,1fr);
 }
+.text_of_festival h1{
+    grid-column: 5/10;
+} 
+.text_of_festival p{
+    grid-column: 2/14;
+}
+
 .gallery{
     padding:1rem 30%;
     background-color: #463d38;
@@ -21,6 +30,8 @@ footer{
 }
 @media screen and (min-width: 60em){
     .gallery{
+        display: grid;
+        grid-template-columns: repeat(15,1fr);
         width: 100%;
 		height: 38rem;
 		position: relative;
@@ -31,51 +42,27 @@ footer{
         position: absolute;
     }
     .image4{
-       z-index: 4;
-		left: 7rem;
-		top: 3rem;
+       grid-column:6/15;
+       z-index: 1;
+       top:4rem;
+		
     }
      .image2{
+        grid-column:3/8;
         z-index: 5;
-		bottom: 2;
-		top: 4rem;
-		left:20rem;
+		top:6rem;
      }
       .image1{
+        grid-column: 4/11;
       z-index: 3;
-		top: 9rem;
-		right: 6rem;
+      top:8rem;
     }
      .image3{
-        z-index: 1;
-		top:8rem;
-		left: 5rem;
-		right: 2rem;
+        grid-column: 7/13;
+        z-index: 10;
+        top:14rem;
     }
      .gallery img:hover{
         z-index: 100;
-    }
-}
-@media screen and (min-width: 100em){
-    .image3{
-        z-index: 1;
-		top:5rem;
-		left: 13rem;
-		right: 2rem;
-    }
-     .image1{
-      z-index: 3;
-		top: 9rem;
-		right: 9rem;
-    }
-    .image2{
-        z-index: 5;
-		top: 8rem;
-		left:27rem;
-     }
-     .image4{
-       z-index: 4;
-		left: 35rem;
-		top: 3rem;
     }
 }

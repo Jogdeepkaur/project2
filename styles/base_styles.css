@@ -52,6 +52,7 @@ h2 {
 
 p {
 	margin: 0 0 1.5em;
+	font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
 
@@ -129,7 +130,6 @@ header{
 .page-header h1 {
 	position: absolute;
 	top: 70%;
-	
 	z-index: 4;
     border:1px;
     border-radius: 50%;
@@ -171,7 +171,6 @@ header{
 /* Footer
 --------------------------------------------- */
 footer{
-	
 	/* background-color: #967D69; */
 	height: 8rem;
 	
