@@ -8,15 +8,16 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base_styles.css">
     <link rel="stylesheet" href="styles/festival.css">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
 </head>
 
 <body>
     <header class="container">
+        <a class="screen-reader-text" href="#mainfestival">Skip to content</a>
         <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
             height="48" viewBox="0 0 512 512">
             <image width="512" height="512"
@@ -36,20 +37,21 @@
                 }
             </style>
         </svg>
+        
         <nav class="navigation">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="culture.html">Culture</a></li>
-                <li><a href="festivals.html">Festivals</a></li>
-                <li><a href="citations.html">Credits</a></li>
+           <ul>
+                <li><a href="index.html" aria-label="Back to Home Page">Home</a></li>
+                <li><a href="culture.html" aria-label="Back to Culture Page">Culture</a></li>
+                <li><a href="festivals.html" aria-label="Back to festival Page">Festivals</a></li>
+                <li><a href="citations.html" aria-label="Back to citation Page">Credits</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main id="mainfestival">
 
-        <img src="media/images/banner_of_festival.jpg" alt="" width="100%">
+        <img src="media/images/banner_of_festival.jpg" alt="" width=100%>
 
-        <section class="text_of_festival">
+        <section class="text">
             <h1>Festivals</h1>
             <p>Punjabi festivals are various festive celebrations observed by the Punjabis, originating in the Punjab
                 region. The Punjabis are religiously a diverse and that affects the festivals they observe. According to
@@ -67,7 +69,7 @@
         </section>
 
         <section class="gallery">
-
+            <h2>Glances</h2>
             <img class="image1" src="media/images/diwali.jpg" alt="">
 
 
