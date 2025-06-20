@@ -6,9 +6,13 @@ header,footer{
 header a,footer{
     color:#ffffff ;
 }
+p a:visited,p a:hover ,p a:focus,p a:active {
+	color:#990A05;
+}
 .text a{
 	color: #006400;
 }
+
 blockquote{
 	padding:0;
 	background-color: #59c9a5;

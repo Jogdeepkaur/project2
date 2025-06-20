@@ -19,9 +19,6 @@
 /*--------------------------------------------------------------
 # Base
 --------------------------------------------------------------*/
-
-/* Typography
---------------------------------------------- */
 body {
 	font-size: clamp(1rem, 1.5vw, 2rem);
 	font-family: Arial, Helvetica, sans-serif;
@@ -30,7 +27,8 @@ body {
 	padding-top:0;
 }
 
-
+/* Typography
+--------------------------------------------- */
 h1,
 h2,
 h3,
@@ -85,21 +83,11 @@ a {
 	text-decoration: none;
 }
 
-a:visited {
-	
+a:visited,a:hover ,a:focus,a:active {
+	color:#FDFF80;
 }
 
-a:hover {
-	
-}
 
-a:focus {
-	
-}
-
-a:active {
-	
-}
 
 
 /*--------------------------------------------------------------
@@ -115,8 +103,15 @@ a:active {
 /* Header
 --------------------------------------------- */
 header{
-	height: 5rem;
+	height: 90vh;
+	width:5rem;
 	padding:1rem ;
+	position:fixed;
+	z-index:1000;
+
+}
+main{
+	padding-left:5rem;
 }
 .page-header {
 	position: relative;
@@ -135,51 +130,60 @@ header{
 	text-transform: uppercase;
 	text-align: center;
 }
-
 .container{
-	display:flex;
-	justify-content: space-between;
-}
+	text-align: center;}
 .navigation ul{
 	list-style-type: none;
-	padding: 0;
-	margin: 0;
-	text-align: center;
+	padding:0 25%;
 }
 .navigation a{
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 0.5rem;
 }
 
 /* just until we make the hamburger */
 @media screen and (min-width: 50em){
-	header{
-		height: 7rem;
-	    padding:2rem 3rem ;
+	main{
+		padding-left:0;
 	}
-	.navigation ul{
-	display:grid;
-	grid-template-columns: repeat(4,1fr);
+	.container{
+	display:flex;
+	justify-content: space-between;
+}
+.navigation ul{
+	display:flex;
 	gap:1rem;
+	padding:0;
 }
 
+	header{
+		height: 8rem;
+		width:100vw;
+	    padding:1.75rem 2rem ;
+	}
+	.navigation a{
+	font-size: 2rem;
+}
+ 
 }
 /* Main
 --------------------------------------------- */
 .text{
-    margin:0 4rem;
+    margin:0 1rem;
     display: grid;
     grid-template-columns: repeat(14,1fr);
 }
 
 .text h1{
-	grid-column: 6/10;
+	grid-column: 1/15;
+	text-align: center;
 }
 .text h2{
-	grid-column: 6/10;
+	grid-column: 1/15;
+	text-align: center;
 }
 .text p{
-    grid-column: 1/15;
+    grid-column: 2/14;
 }
 .text blockquote{
 	grid-column: 1/15;
@@ -188,9 +192,18 @@ header{
 /* Footer
 --------------------------------------------- */
 footer{
-	/* background-color: #967D69; */
-	height: 6rem;
+	height: 4rem;
 }
 footer p{
    text-align: center;
 }
+@media screen and (min-width: 50em){
+	footer{
+	height: 6rem;
+}
+}
+ 
+
+
+
+
