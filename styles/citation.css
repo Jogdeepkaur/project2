@@ -1,37 +1,41 @@
 
+
+/* topography */
+h1{
+    text-align: center;
+    font-size:3rem;   
+}
+/* elements */
+table{
+    width:80%;
+    margin:3rem auto;
+}
+/* links */
 a{
     color:#000000;
 }
-/* main{
-    padding-left:5rem;
-} */
-h1{
-    text-align: center;
-    font-size:3rem;
-    
+.tha a:visited,.tha a:hover ,.tha a:focus,.tha a:active {
+	color:#990A05;
 }
+
+
 @media (min-width: 50em){
    h1{
-    padding-top: 8rem;
+    padding-top: 3rem;
    }
 }
+/* styles for header and footer */
 header,footer{
     background-color: #0a1e0c;
 }
 
-.tha a:visited,.tha a:hover ,.tha a:focus,.tha a:active {
-	color:#990A05;
-}
 header a{
     color:#ffffff;
 }
 footer{
     color:#ffffff;
 }
-table{
-    width:80%;
-    margin:3rem auto;
-}
+/* elements */
 table, th, td{
   border: 3px solid black;
 }
@@ -45,6 +49,8 @@ th, td {
   padding: 15px;
   text-align: left;
 }
+
+/* main */
 .tha{
     border-collapse: collapse;
 }

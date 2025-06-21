@@ -5,10 +5,25 @@ figure{
 figcaption{
 	padding:0 0.5rem;
 }
+/* svg styles */
+svg{
+	margin:1rem;
+}
+@media (min-width: 50em) {
+	svg{
+		margin: 2rem;
+	}
+}
 /* styles for header and footer */
 header,
 footer {
 	background-color: #435575;
+}
+/* svg{
+	margin:2rem;
+} */
+header nav{
+	margin:1rem 1rem;
 }
 
 header a,
@@ -20,7 +35,8 @@ footer {
 .page-header img {
 	display: block;
 	object-fit: cover;
-	min-height: 18rem;
+	min-height: 70vh;
+	object-fit: cover;
 	width:100%;
 }
 .container{
@@ -29,9 +45,9 @@ footer {
 
 /* styles for the grid images in gallery */
 .gallery-container {
-	padding: 3rem;
-
-}
+	padding: 2rem;
+    font-size: 0.5rem;}
+	
 
 .gallery-container figure {
 	border: 4px solid #3A3C40;
@@ -53,6 +69,7 @@ figure img {
 		grid-template-columns: minmax(20rem, 40rem) minmax(20rem, 40rem);
 		gap: 1rem;
 		justify-content: center;
+		font-size: clamp(1rem,1.5vh,3rem);
 	}
 
 	.gallery-container h2 {

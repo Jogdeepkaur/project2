@@ -56,46 +56,13 @@ p {
 
 /* Elements
 --------------------------------------------- */
-ul {
-	
-}
 
-ol {
-	
-}
 
-dl {
-	
-}
-
-figure {
-	
-}
-
-table {
-	
-}
 
 /* Links
 --------------------------------------------- */
-a {
-	
-}
-
-a:visited {
-	
-}
-
-a:hover {
-	
-}
-
-a:focus {
-	
-}
-
-a:active {
-	
+a:visited,a:hover , a:focus,a:active {
+	color:#FDFF80;
 }
 
 
@@ -112,12 +79,14 @@ a:active {
 /* Header
 --------------------------------------------- */
 header{
-	/* background-color: #6D8EA0; */
-	/* background-color: #C2C6A7; */
-	/* background-color: #c3b59f; */
-	/* background-color: #2A628F; */
 	height: 15rem;
 	padding-top:0;
+}
+svg{
+	margin:2rem;
+}
+header nav{
+	margin:1rem 2rem;
 }
 .page-header {
 	position: relative;
@@ -135,15 +104,8 @@ header{
 	text-transform: uppercase;
 	text-align: center;
 }
-/* Main
---------------------------------------------- */
 
-
-/* Footer
---------------------------------------------- */
 footer{
-	background-color: #c3b59f;
-	/* background-color: #967D69; */
 	height: 8rem;
 	
 }
