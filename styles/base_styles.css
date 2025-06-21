@@ -21,7 +21,8 @@
 --------------------------------------------------------------*/
 body {
 	font-size: clamp(1rem, 1.5vw, 2rem);
-	font-family: Arial, Helvetica, sans-serif;
+	font-family: "Roboto", sans-serif;
+	/* font-family: Arial, Helvetica, sans-serif; */
 	line-height: 1.5;
 	margin-top:0;
 	padding-top:0;
@@ -103,7 +104,7 @@ a:visited,a:hover ,a:focus,a:active {
 /* Header
 --------------------------------------------- */
 header{
-	height: 90vh;
+	height: 70vh;
 	width:5rem;
 	padding:1rem ;
 	position:fixed;
@@ -117,6 +118,7 @@ main{
 	position: relative;
 	display: flex;
 	justify-content: center;
+	
 
 }
 .page-header h1 {
@@ -145,6 +147,7 @@ main{
 @media screen and (min-width: 50em){
 	main{
 		padding-left:0;
+		padding-top:7rem;
 	}
 	.container{
 	display:flex;
@@ -184,9 +187,18 @@ main{
 }
 .text p{
     grid-column: 2/14;
+	padding-bottom: 0;
 }
 .text blockquote{
 	grid-column: 1/15;
+}
+.text details{
+	grid-column: 2/14;
+	margin:2rem;
+}
+details summary{
+	grid-column: 1/15;
+	text-align: center;
 }
 
 /* Footer
@@ -199,7 +211,8 @@ footer p{
 }
 @media screen and (min-width: 50em){
 	footer{
-	height: 6rem;
+	height: 8rem;
+	padding-bottom: 1rem;
 }
 }
  

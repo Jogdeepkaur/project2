@@ -1,7 +1,5 @@
 /* styles for header and footer */
-*{
-	margin:0;
-}
+
 header,
 footer {
 	background-color: #435575;
@@ -17,19 +15,18 @@ footer {
 	display: block;
 	object-fit: cover;
 	min-height: 18rem;
+	width:100%;
 }
 .container{
 	padding: 0;
 }
 
 
-@media (min-width: 50em) {
-	svg{
+
+
+/* .navigation{
 	padding:2rem;
-}
-.navigation{
-	padding:2rem;
-}}
+}} */
 /* styles for the grid images in gallery */
 .gallery-container {
 	padding: 3rem;
@@ -47,10 +44,12 @@ figure{
 figure img {
 	width: 100%;
 }
-
+figcaption{
+	padding:0 0.5rem;
+}
 
 /* media query for the grid images */
-@media (min-width: 50em) {
+@media (min-width: 50em){
 	
 	.gallery-container {
 		display: grid;

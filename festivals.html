@@ -9,42 +9,59 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base_styles.css">
     <link rel="stylesheet" href="styles/festival.css">
-    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <link rel="shortcut icon" href="/favicon.ico" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="container">
         <a class="screen-reader-text" href="#mainfestival">Skip to content</a>
-        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48"><svg id="SvgjsSvg1007" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
-  <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
-  <defs>
-    <style>
-      .st0 {
-        fill: #f15a24;
-      }
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="48"
+            height="48"><svg id="SvgjsSvg1007" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 512 512">
+                <!-- Generator: Adobe Illustrator 29.5.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 141)  -->
+                <defs>
+                    <style>
+                        .st0 {
+                            fill: #f15a24;
+                        }
 
-      .st1 {
-        fill: #ccc;
-      }
+                        .st1 {
+                            fill: #ccc;
+                        }
 
-      .st2 {
-        fill: #22b573;
-      }
-    </style>
-  </defs>
-  <rect id="SvgjsRect1006" class="st0" width="512" height="170.84"></rect>
-  <rect id="SvgjsRect1005" class="st1" y="170.7" width="512" height="170.61"></rect>
-  <rect id="SvgjsRect1004" class="st2" y="341.16" width="512" height="170.68"></rect>
-</svg><style>@media (prefers-color-scheme: light) { :root { filter: none; } }
-@media (prefers-color-scheme: dark) { :root { filter: none; } }
-</style></svg>
-        
+                        .st2 {
+                            fill: #22b573;
+                        }
+                    </style>
+                </defs>
+                <rect id="SvgjsRect1006" class="st0" width="512" height="170.84"></rect>
+                <rect id="SvgjsRect1005" class="st1" y="170.7" width="512" height="170.61"></rect>
+                <rect id="SvgjsRect1004" class="st2" y="341.16" width="512" height="170.68"></rect>
+            </svg>
+            <style>
+                @media (prefers-color-scheme: light) {
+                    :root {
+                        filter: none;
+                    }
+                }
+
+                @media (prefers-color-scheme: dark) {
+                    :root {
+                        filter: none;
+                    }
+                }
+            </style>
+        </svg>
+
         <nav class="navigation">
-           <ul>
+            <ul>
                 <li><a href="index.html" aria-label="Back to Home Page">Home</a></li>
                 <li><a href="culture.html" aria-label="Back to Culture Page">Culture</a></li>
                 <li><a href="festivals.html" aria-label="Back to festival Page">Festivals</a></li>
@@ -54,7 +71,8 @@
     </header>
     <main id="mainfestival">
 
-        <img src="media/images/banner_of_festival.jpg" alt="" width=100%>
+        <img class="background" src="media/images/banner_of_festival.jpg"
+            alt="The image of latrons with a darkred background">
 
         <section class="text">
             <h1>Festivals</h1>
@@ -64,7 +82,7 @@
                 million people, with 97% of Punjabis who live in Pakistan following Islam, in contrast to the remaining
                 30 million Punjabi Sikhs and Hindus who predominantly live in India.[1]</p>
 
-              
+
         </section>
 
         <section class="gallery">
@@ -81,16 +99,15 @@
 
         </section>
         <section class="form">
-
-            <h2>Do you want to know more?</h2>
+            <h2>Contact Information</h2>
             <form>
-                <input type="radio" id="yes" name="information" value="yes"
-                <label for="yes">Yes</label><br>
-                 <input type="radio" id="no" name="information" value="no"
-                <label for="no">No</label><br>
+                <label for="firstname">First Name</label>
+                <input type="text" id="firstname" name="firstname" placeholder="Your name..">
 
+                <label for="lastname">Last Name</label>
+                <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
             </form>
-            <p><a href="mailto:jogdeep8454@gmail.com"></a></p>
+
         </section>
     </main>
     <footer>
