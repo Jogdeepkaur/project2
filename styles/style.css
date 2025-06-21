@@ -1,4 +1,21 @@
+/* Styles for components */
+blockquote{
+	padding:1rem;
+	background-color: #59c9a5;
+	text-align: center;
+	font-style: italic;
+}
+/* Link styles are here */
+p a:visited,p a:hover ,p a:focus,p a:active {
+	color:#990A05;
+}
+.text a{
+	color: #006400;
+}
 
+
+
+/* header and footer styles are here */
 header,footer{
 	background-color: #465775;
     /* background-color: rgb(6, 6, 180); */
@@ -6,27 +23,18 @@ header,footer{
 header a,footer{
     color:#ffffff ;
 }
-p a:visited,p a:hover ,p a:focus,p a:active {
-	color:#990A05;
-}
-.page-header video{
-	width:100%;
-}
-.text a{
-	color: #006400;
-}
 
-blockquote{
-	padding:1rem;
-	background-color: #59c9a5;
-	text-align: center;
-	font-style: italic;
-}
+
 /* Styles for the video that is used as banner */
+
+.page-header video{
+	width:100%;}
+
 .page-header video{
     height: 80vh;
 	object-fit: cover;
 
 }
+
 
 

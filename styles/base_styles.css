@@ -55,7 +55,9 @@ p {
 	font-size: clamp(1rem, 2.5vw, 2rem);
 }
 
-
+main{
+	padding-left:5rem;
+}
 /* Elements
 --------------------------------------------- */
 ul {
@@ -111,9 +113,7 @@ header{
 	z-index:1000;
 
 }
-main{
-	padding-left:5rem;
-}
+
 .page-header {
 	position: relative;
 	display: flex;
