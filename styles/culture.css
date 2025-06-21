@@ -1,5 +1,11 @@
-/* styles for header and footer */
 
+figure{
+	margin:2rem 0;
+}
+figcaption{
+	padding:0 0.5rem;
+}
+/* styles for header and footer */
 header,
 footer {
 	background-color: #435575;
@@ -21,12 +27,6 @@ footer {
 	padding: 0;
 }
 
-
-
-
-/* .navigation{
-	padding:2rem;
-}} */
 /* styles for the grid images in gallery */
 .gallery-container {
 	padding: 3rem;
@@ -38,15 +38,11 @@ footer {
 	padding-bottom: 0.25rem;
 	box-shadow: 5px 10px #3A3C40;
 }
-figure{
-	margin:2rem 0;
-}
+
 figure img {
 	width: 100%;
 }
-figcaption{
-	padding:0 0.5rem;
-}
+
 
 /* media query for the grid images */
 @media (min-width: 50em){
