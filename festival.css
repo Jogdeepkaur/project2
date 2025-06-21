@@ -1,0 +1,18 @@
+header{
+    background-color: #330A0E;
+    /* background-color: #410707; */
+    /* #160101; */
+}
+footer{
+    background-color: #31373e;
+}
+
+
+.text_of_festival{
+    margin:0 4rem;
+}
+.gallery{
+    padding:0 30%;
+    background-color: #463d38;
+    /* background-color: #363946; */
+}

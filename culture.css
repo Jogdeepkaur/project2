@@ -1,0 +1,14 @@
+.page-header img{
+	display: block;
+	object-fit: cover;
+	min-height: 25rem;
+}
+.gallery-container{
+	padding:3rem;
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 1fr 1fr;
+	gap:1rem;
+	justify-content: center;
+	
+}
