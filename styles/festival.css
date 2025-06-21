@@ -1,19 +1,24 @@
-
+form{
+   
+    display:flex;
+    justify-content: center;
+    flex-direction:column;
+    gap:2rem;
+}
+/* styles for the header and footer */
 header,footer{
     background-color: #330A0E;
 }
-header a{
+header a,footer{
     color:#ffffff ;
 }
-footer{
-    color:#ffffff ;
-    
-}
+  
+/* styles for the banner image */
 
 .background img{
     width:100%;
 }
-
+/* styles do gallery and the form */
 .gallery{
     padding:1rem 30%;
     background-color: #463d38;
@@ -27,13 +32,9 @@ footer{
     margin:3rem 0;
     padding:2rem;  
 }
-form{
-   
-    display:flex;
-    justify-content: center;
-    flex-direction:column;
-    gap:2rem;
-}
+
+
+
 @media screen and (min-width: 60em){
     .gallery{
         display: grid;
@@ -87,6 +88,8 @@ form{
       
     }
 }
+
+
 @media screen and (min-width: 80em){
     .gallery{
         height: 40rem; }
